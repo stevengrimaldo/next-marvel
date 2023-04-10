@@ -37,7 +37,6 @@ export const getMarvelCharacters = async (options?: Options) => {
   );
 
   let url = `${apiUrl}?apikey=${params.apikey}&ts=${params.ts}&hash=${params.hash}`;
-  // let url = `${apiUrl}?${params.apikey}&ts=${params.ts}&hash=${params.hash}&offset=${offset}&orderBy=${sortName}name&limit=${limit}`;
 
   if (name) {
     if (exactMatch) {
