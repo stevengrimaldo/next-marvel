@@ -2,11 +2,9 @@
 
 import { createGlobalStyle } from 'styled-components';
 import ResetStyles from './reset';
-import SlickStyles from './slick';
 
 const GlobalStyles = createGlobalStyle`
 ${ResetStyles}
-${SlickStyles}
 html {
   font-size: 62.5%;
 }
