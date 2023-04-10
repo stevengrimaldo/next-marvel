@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import { Features, Header, Hero, Slider } from '@/components/custom';
 import { getMarvelCharacters } from '@/lib/marvelCharacters';
 import { getMarvelComics } from '@/lib/marvelComics';
+import { Features, Header, Hero, Slider } from '@/components/custom';
 
 interface Props {
   comics: {

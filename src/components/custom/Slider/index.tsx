@@ -15,7 +15,6 @@ const Wrapper = styled.div`
 
 const Parent = styled.div`
   align-items: flex-end;
-  cursor: grabbing;
   display: flex;
   width: 100%;
 `;
