@@ -18,17 +18,15 @@ export interface Props {
   name: IconNames;
 }
 
-const Icon = ({ name, ...props }: Props) => {
-  return (
-    <Container {...props}>
-      <Image
-        alt={name}
-        height={Icons[name].height}
-        src={Icons[name].src}
-        width={Icons[name].width}
-      />
-    </Container>
-  );
-};
+const Icon = ({ name, ...props }: Props) => (
+  <Container {...props}>
+    <Image
+      alt={name}
+      height={Icons[name].height}
+      src={Icons[name].src}
+      width={Icons[name].width}
+    />
+  </Container>
+);
 
 export default Icon;

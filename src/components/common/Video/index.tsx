@@ -31,7 +31,7 @@ const Video = ({
   width = '100%',
   ...props
 }: Props) => {
-  const ref = useRef<null | HTMLVideoElement>(null);
+  const ref = useRef<HTMLVideoElement>(null);
 
   // see here for more events:
   // https://mzl.la/3IMDWmQ

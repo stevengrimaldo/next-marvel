@@ -3,7 +3,7 @@ import md5 from 'md5';
 // The following function is shared
 // with getStaticProps and API routes
 
-export const getMarvelComics = async (characterId?: string) => {
+export const getMarvelComics = async (characterId: string) => {
   const now = Date.now();
 
   const apiUrl = `https://gateway.marvel.com/v1/public/characters/${characterId}/comics`;
