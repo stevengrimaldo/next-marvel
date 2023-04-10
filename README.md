@@ -6,7 +6,7 @@ First, run the development server:
 npm i
 ```
 
-after install uou need to go to the [Marvel API website](https://www.marvel.com/signin) and create a Public + Private token then place your tokens in an `.env` file in the root like so:
+after install you need to go to the [Marvel API website](https://www.marvel.com/signin) and create a Public + Private token then place your tokens in an `.env` file in the root like so:
 
 ```
 REACT_APP_PUBLIC_API_KEY=your_public_key
