@@ -103,7 +103,6 @@ export interface Props extends ContainerProps, ChildrenProps {
   className?: string;
   compRef?: Function;
   container?: boolean;
-  onClick?: () => void;
   repeat?: RepeatProps;
 }
 
@@ -116,7 +115,7 @@ const Flex = forwardRef(
 
       content = data.map((d, i) => (
         <Container {...extra} key={i}>
-          <Component {...{ ...d, ...p }} key={i} />
+          <Component {...{ ...d, ...p }} />
         </Container>
       ));
     }
